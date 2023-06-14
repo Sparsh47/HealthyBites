@@ -3,18 +3,8 @@ $(document).ready(function ($) {
 
     var team_slider = new Swiper(".team-slider", {
         slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        speed: 2000,
-
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
+        spaceBetween: 115,
+        loop: false,
         pagination: {
             el: ".swiper-pagination",
             clickable: true,

@@ -853,7 +853,7 @@ p {
   padding: 20px;
   border-radius: 30px;
   background: linear-gradient(145deg, #ececec, #ffffff);
-  box-shadow: 28px 28px 45px #e6e6e6, -28px -28px 45px #ffffff;
+  box-shadow: 15px 15px 45px #cecece94, -15px -15px 45px #dbdbdb94;
   transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
 }
 
