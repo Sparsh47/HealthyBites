@@ -1,0 +1,421 @@
+{
+      "dataArr": [{
+          "productId": 1,
+          "name": "kellogs corn flakes",
+          "itemId": "kellogscornflakes",
+          "ingredients": "Corn (90%), sugar, salt, barley malt extract, vitamins (vitamin E, niacin, vitamin B6, riboflavin, folate), minerals (iron, zinc oxide)",
+          "servingSize(in g)": 42,
+          "nutritionInfo": {
+              "Energy": 150,
+              "Carbohydrates": 36,
+              "Protein": 2.6,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Cholestrol": 0,
+              "Total Sugar": 4,
+              "Added Sugar": 4,
+              "Caffeine": 0,
+              "Sodium": 300,
+              "Dietary Fiber": 1.3
+          }
+      }, {
+          "productId": 2,
+          "name": "frooti",
+          "itemId": "frooti",
+          "ingredients": "mango pulp, water, sugar, citric acid, ascorbic acid, salt, colouring and flavouring",
+          "servingSize(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 65,
+              "Carbohydrates": 16.2,
+              "Protein": 0,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Cholestrol": 0,
+              "Total Sugar": 15.8,
+              "Added Sugar": 13.3,
+              "Caffeine": 0,
+              "Sodium": 27.5,
+              "Dietary Fiber": 0
+          }
+      }, {
+          "productId": 3,
+          "name": "fanta",
+          "itemId": "fanta",
+          "ingredients": "Carbonated Water, Orange Fruit from Concentrate (4%), Citric Acid, Sweeteners (Acesulfame K, Aspartame), Preservative (Potassium Sorbate), Malic Acid, Natural Orange Flavouring with Other Natural Flavourings, Vegetable Concentrates (Carrot, Pumpkin), Antioxidant (Ascorbic Acid), Stabiliser (Guar Gum)",
+          "servingSize(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 56,
+              "Carbohydrates": 14,
+              "Protein": 0,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Cholestrol": 0,
+              "Total Sugar": 13.7,
+              "Added Sugar": 13.7,
+              "Caffeine": 0,
+              "Sodium": 30.8,
+              "Dietary Fiber": 0
+          }
+      }, {
+          "productId": 4,
+          "name": "coca cola",
+          "itemId": "cocacola",
+          "ingredients": "Carbonated Water, Acidity Regulator (338), Sweeteners (951, 950), Preservative (211), Caffeine. Contains Permitted Natural Colour (150D) And Added Flavours (Natural Flavouring Substances), Contains No Fruit.",
+          "servingSize(in ml)": 355,
+          "nutritionInfo": {
+              "Energy": 136,
+              "Carbohydrates": 35.18,
+              "Protein": 0.26,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Cholestrol": 0,
+              "Total Sugar": 33.01,
+              "Added Sugar": 33.01,
+              "Caffeine": 8,
+              "Sodium": 15,
+              "Dietary Fiber": 0
+          }
+      }, {
+          "productId": 5,
+          "name": "amul dark chocolate",
+          "itemId": "amuldarkchocolate",
+          "ingredients": "50-90% cocoa solids, cocoa butter, and sugar, whereas milk chocolate contains anywhere from 10-50% cocoa solids, cocoa butter, milk in some form, and sugar.",
+          "servingSize(in g)": 100,
+          "nutritionInfo": {
+              "Energy": 521,
+              "Carbohydrates": 51.4,
+              "Protein": 6.4,
+              "Fats": 33.1,
+              "Saturated Fats": 18.6,
+              "Cholestrol": 0,
+              "Total Sugar": 43.0,
+              "Added Sugar": 42.5,
+              "Caffeine": 0,
+              "Sodium": 38,
+              "Dietary Fiber": 0
+          }
+      }, {
+          "productId": 6,
+          "name": "brittania brown bread",
+          "itemId": "brittaniabrownbread",
+          "ingredients": "Whole Wheat Flour, Water, Sugar, Oil, Salt, Improvers.",
+          "servingSize(in g)": 100,
+          "nutritionInfo": {
+              "Energy": 252,
+              "Carbohydrates": 51,
+              "Protein": 8.4,
+              "Fats": 1.6,
+              "Saturated Fats": 0.5,
+              "Cholestrol": 0,
+              "Total Sugar": 1.9,
+              "Added Sugar": 0,
+              "Caffeine": 0,
+              "Sodium": null,
+              "Dietary Fiber": 4.7
+          }
+      }, {
+          "productId": 7,
+          "name": "brittania fruit cake",
+          "itemId": "brittaniafruitcake",
+          "ingredients": "Prepared Using Refined Wheat Flour, Sugar, Edible Hydrogenated Vegetable Oil, Maltose Syrup, Edible Starch, Fruit Products, Iodised Salt, Preservatives, Acidity Regulator, Baking Powder, Raising Agent",
+          "servingSize(in g)": 100,
+          "nutritionInfo": {
+              "Energy": 405,
+              "Carbohydrates": 58,
+              "Protein": 5,
+              "Fats": 17,
+              "Saturated Fats": 8,
+              "Cholestrol": 69,
+              "Total Sugar": 26.5,
+              "Added Sugar": 24.2,
+              "Caffeine": 0,
+              "Sodium": 214,
+              "Dietary Fiber": 3.4
+          }
+      }, {
+          "productId": 8,
+          "name": "budweiser beats energy drink",
+          "itemId": "budweiserbeatsenergydrink",
+          "ingredients": "water, barley malt, rice, yeast and hops.",
+          "servingSize(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 42,
+              "Carbohydrates": 10.1,
+              "Protein": 0.2,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Cholestrol": 0,
+              "Total Sugar": 9.5,
+              "Added Sugar": 9.5,
+              "Caffeine": 23,
+              "Sodium": 9,
+              "Dietary Fiber": 0
+          }
+      }, {
+          "productId": 9,
+          "name": "corned beef",
+          "itemId": "cornedbeef",
+          "ingredients": "Cooked Beef, Beef, Water, Salt, Sugar, Sodium Nitrite.",
+          "servingSize(in g)": 56,
+          "nutritionInfo": {
+              "Energy": 130,
+              "Carbohydrates": 3,
+              "Protein": 14,
+              "Fats": 8,
+              "Saturated Fats": 3,
+              "Cholestrol": 50,
+              "Total Sugar": 1,
+              "Added Sugar": 0,
+              "Caffeine": 0,
+              "Sodium": 490,
+              "Dietary Fiber": 0
+          }
+      }, {
+          "productId": 10,
+          "name": "maggi noodles",
+          "itemId": "magginoodles",
+          "ingredients": "WHEAT FLOUR, PALM OIL, SALT, AND LESS THAN 2% OF SUGAR, HYDROLYZED PEANUT PROTEIN, ONION POWDER, CORNSTARCH, WHEAT GLUTEN, SPICES, POTASSIUM CHLORIDE, CORIANDER, CHILI POWDER, TURMERIC, GARLIC POWDER, CUMIN, CITRIC ACID, SODIUM TRIPOLYPHOSPHATE, POTASSIUM CARBONATE, SODIUM CARBONATE, CARAMEL COLOR, DISODIUM GUANYLATE",
+          "servingSize(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 389,
+              "Carbohydrates": 59.6,
+              "Protein": 8.2,
+              "Fats": 13.5,
+              "Saturated Fats": 8.2,
+              "Cholestrol": 0,
+              "Total Sugar": 1.8,
+              "Added Sugar": 1.4,
+              "Caffeine": 0,
+              "Sodium": 1028.3,
+              "Dietary Fiber": 2.0
+          }
+      }, {
+          "productId": 11,
+          "name": "yoders canned bacon",
+          "itemId": "yoderscannedbacon",
+          "ingredients": "pork, water, salt, sugar, smoke flavorings, sodium phosphates, sodium erythorbate, and sodium nitrate ",
+          "servingSize(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 180,
+              "Carbohydrates": 0,
+              "Protein": 12,
+              "Fats": 14,
+              "Saturated Fats": 4.5,
+              "Cholestrol": 35,
+              "Total Sugar": 0,
+              "Added Sugar": 0,
+              "Caffeine": 0,
+              "Sodium": 710,
+              "Dietary Fiber": 0
+          }
+      }, {
+          "productId": 12,
+          "name": "hersheys chocolate syrup",
+          "itemId": "hersheyschocolatesyrup",
+          "ingredients": "High Fructose Corn Syrup, Corn Syrup, Water, Cocoa*, Sugar,Contains 2% or Less of:(, Potassium Sorbate (PRESERVATIVE), Salt, Mono and Diglycerides*, Xanthan Gum, Polysorbate 20, 60, Or 80,Vanillin (ARTIFICIAL FLAVOR))",
+          "per serving(in g)": 19,
+          "nutritionInfo": {
+              "Energy": 45,
+              "Carbohydrates": 12,
+              "Protein": 0,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Cholestrol": 0,
+              "Total Sugar": 14,
+              "Added Sugar": 10,
+              "Caffeine": 0,
+              "Sodium": 5,
+              "Dietary Fiber": 1
+          }
+      }, {
+          "productId": 13,
+          "name": "lotte choco pie",
+          "itemId": "lottechocopie",
+          "ingredients": "WHEAT FLOUR, CHOCO COVERING (20%) [SUGAR, EDIBLE VEGETABLE OILS(PARTIALLY HYDROGENATED), COCOA SOLIDS, MILK SOLIDS, EMULSIFIERS (322- SOYALECITHIN, 476), SUGAR, LIQUID GLUCOSE, EDIBLE VEGETABLE OILS (PARTIALLY HYDROGENATED), CORN STARCH, SORBITOL, GLYCEROL, RAISING AGENTS {500(), 503(1), 341(1), I0DISED SALT, STABILIZERS (407, 415), MILK SOLIDS AND SOYAPROTEIN, CONTAINS ADDED NATURE IDENTICAL AND ARTIFICIAL FLAVOURING SUBSTANCES (MILK AND VANILLA)",
+          "per serving(in g)": 28,
+          "nutritionInfo": {
+              "Energy": 123,
+              "Carbohydrates": 19,
+              "Protein": 1.1,
+              "Fats": 4.8,
+              "Saturated Fats": 3.4,
+              "Total Sugar": 9.5,
+              "Added Sugar": 7.5,
+              "Caffeine": 0,
+              "Sodium": 60,
+              "Dietary Fiber": 0,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 14,
+          "name": "mentos",
+          "itemId": "mentos",
+          "ingredients": "Sugar, Liquid Glucose, Hydrogenated Vegetable Oil, Starch, Thickeners (INS 414, INS 418), Flavour (Natural, Nature Identical), Emulsifier (INS 473), Glazing Agent (INS 903)",
+          "per serving(in g)": 2.7,
+          "nutritionInfo": {
+              "Energy": 0.5,
+              "Carbohydrates": 2.48,
+              "Protein": 0,
+              "Fats": 0.5,
+              "Saturated Fats": 0.5,
+              "Total Sugar": 1.94,
+              "Added Sugar": 1.94,
+              "Caffeine": 0,
+              "Sodium": 1.73,
+              "Dietary Fiber": 0,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 15,
+          "name": "quaker oats",
+          "itemId": "quakeroats",
+          "ingredients": "Oats (60%), Wheat Flakes (18 %), Barley Flakes (15%), Ragi Flakes (5%), Sugar, Salt, Malt Extract",
+          "per serving(in g)": 100,
+          "nutritionInfo": {
+              "Energy": 0.5,
+              "Carbohydrates": 2.48,
+              "Protein": 0,
+              "Fats": 0.5,
+              "Saturated Fats": 0.5,
+              "Total Sugar": 1.94,
+              "Added Sugar": 1.94,
+              "Caffeine": 0,
+              "Sodium": 1.73,
+              "Dietary Fiber": 22,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 16,
+          "name": "sundrop peanut butter",
+          "itemId": "sundroppeanutbutter",
+          "ingredients": "Peanuts (79%), Raw Brown Sugar (11%), Pea Protein (8%), Stabilizer (INS471), Himalayan Pink Salt",
+          "per serving(in g)": 32,
+          "nutritionInfo": {
+              "Energy": 200,
+              "Carbohydrates": 6,
+              "Protein": 8,
+              "Fats": 16,
+              "Saturated Fats": 3,
+              "Total Sugar": 3,
+              "Added Sugar": 2,
+              "Caffeine": 0,
+              "Sodium": 112,
+              "Dietary Fiber": 2,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 17,
+          "name": "real juice",
+          "itemId": "realjuice",
+          "ingredients": "Water, Mixed Fruit Concentrate, Pineapple Juice concentrate, Orange Juice concentrate, Mango puree concentrate, Banana puree, Apple juice concentrate, Guava puree concentrate, Passion Fruit, Apricot and Lime, Sugar, Apple juice concentrate, Citric Acid and Ascorbic Acid.",
+          "per serving(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 60,
+              "Carbohydrates": 15,
+              "Protein": 0.1,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Total Sugar": 15,
+              "Added Sugar": 13.7,
+              "Caffeine": 0,
+              "Sodium": 2,
+              "Dietary Fiber": 8,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 18,
+          "name": "red bull",
+          "itemId": "redbull",
+          "ingredients": "Carbonated Water, Sucrose, Glucose, Citric Acid, Taurine, Sodium Bicarbonate, Magnesium Carbonate, Caffeine, Niacinamide, Calcium Pantothenate, Pyridoxine HCI, Vitamin B12, Natural and Artificial Flavors, Colors.",
+          "per serving(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 45,
+              "Carbohydrates": 11,
+              "Protein": 0,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Total Sugar": 11,
+              "Added Sugar": 11,
+              "Caffeine": 30,
+              "Sodium": 41,
+              "Dietary Fiber": 0,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 19,
+          "name": "premio sausage",
+          "itemId": "premiosausage",
+          "ingredients": "ground meat—often pork, beef, or poultry—along with salt, spices and other flavourings",
+          "per serving(in g)": 100,
+          "nutritionInfo": {
+              "Energy": 195.12,
+              "Carbohydrates": 7.78,
+              "Protein": 15.17,
+              "Fats": 11.48,
+              "Saturated Fats": 11.48,
+              "Total Sugar": 0,
+              "Added Sugar": 0,
+              "Caffeine": 0,
+              "Sodium": 1.73,
+              "Dietary Fiber": 0,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 20,
+          "name": "sting energy drink",
+          "itemId": "stingenergydrink",
+          "ingredients": "carbonated water, sugar, citric acid, artificial flavor, maltodextrin, sodium citrate, sodium hexametaphosphate, potassium sorbate, caffeine, sodium benzoate, tartrazine, inositol, calcium disodium EDTA, modified food starch, Panax ginseng extract, niacinamide, sunset yellow, pyridoxine",
+          "per serving(in ml)": 100,
+          "nutritionInfo": {
+              "Energy": 28,
+              "Carbohydrates": 7,
+              "Protein": 0,
+              "Fats": 0,
+              "Saturated Fats": 0,
+              "Total Sugar": 7,
+              "Added Sugar": 7,
+              "Caffeine": 200,
+              "Sodium": 53,
+              "Dietary Fiber": 0,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 21,
+          "name": "amul toned milk",
+          "itemId": "amultonedmilk",
+          "ingredients": "buffalo and cow's milk to reach a concentration of about 3% fat and 8.5% non-fat milk solids, including milk sugar and proteins.",
+          "per serving(in g)": 100,
+          "nutritionInfo": {
+              "Energy": 58.2,
+              "Carbohydrates": 4.8,
+              "Protein": 3,
+              "Fats": 0.5,
+              "Saturated Fats": 0.5,
+              "Total Sugar": 0,
+              "Added Sugar": 0,
+              "Caffeine": 0,
+              "Sodium": 100,
+              "Dietary Fiber": 0,
+              "Cholestrol": 0
+          }
+      }, {
+          "productId": 22,
+          "name": "winkies swiss roll",
+          "itemId": "winkiesswissroll",
+          "ingredients": "Sugar, Wheat Flour, Edible/Hydrogenated Vegetable Oils, Eggs, Liquid Glucose, Water, Chocolate Vermicelli, Cocoa Solids, Milk Solids, Humectants (422, 420), Emulsifiers ( 322, 471, 472b, 477), Raising Agent [500 (ii)], Edible Common Salt, Class II Preservative (200), Acidity Regulator (330), Contains Permitted Natural",
+          "per serving(in g)": 100,
+          "nutritionInfo": {
+              "Energy": 407.83,
+              "Carbohydrates": 59.41,
+              "Protein": 6.75,
+              "Fats": 15.91,
+              "Saturated Fats": 4.21,
+              "Total Sugar": 28.91,
+              "Added Sugar": 23.6,
+              "Caffeine": 0,
+              "Sodium": 103.66,
+              "Dietary Fiber": 0,
+              "Cholestrol": 51.29
+          }
+      }]
+  }

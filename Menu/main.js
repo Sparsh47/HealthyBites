@@ -1,68 +1,6 @@
+
 $(document).ready(function ($) {
     "use strict";
-
-
-    var book_table = new Swiper(".book-table-img-slider", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        speed: 2000,
-        effect: "coverflow",
-        coverflowEffect: {
-            rotate: 3,
-            stretch: 2,
-            depth: 100,
-            modifier: 5,
-            slideShadows: false,
-        },
-        loopAdditionSlides: true,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-
-    var team_slider = new Swiper(".team-slider", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        speed: 2000,
-
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        breakpoints: {
-            0: {
-                slidesPerView: 1.2,
-            },
-            768: {
-                slidesPerView: 2,
-            },
-            992: {
-                slidesPerView: 3,
-            },
-            1200: {
-                slidesPerView: 3,
-            },
-        },
-    });
 
     jQuery(".filters").on("click", function () {
         jQuery("#menu-dish").removeClass("bydefault_show");
@@ -170,4 +108,78 @@ jQuery(window).on('load', function () {
 
     }
 });
+if (typeof document !== 'undefined') {
+    var myCard = document.querySelectorAll(".dish-title");
+    console.log(myCard);
+
+
+    // const nutriList = [1003, 1004, 1005, 1008, 1018, 1057, 1079, 2000, 1092, 1093, 1253, 1264, 1265]
+
+
+    for (var card of myCard) {
+
+        card.addEventListener("click", cardClick);
+        var cardClick = e => {
+
+            var myId = e.target.id;
+            console.log(myId);
+            // let dish = document.getElementById(myId);
+        
+    //         let dishName = dish.innerHTML
+    //         console.log(dishName);
+    //         dishName = '"' + dishName + '"';
+
+    //         // let url = `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=kqvZi97I2hm9MevWKm8QBKRrVW2e1iTCvZHW3ioQ&query=${dishName}`
+    //         // console.log(url);
+
+            if (typeof(Storage) !== "undefined") {
+
+                localStorage.setItem("dishId", myId);
+            }
+
+            function Redirect() {
+                location.assign("..//Card/card.html");
+            }
+
+            Redirect();
+            
+
+            // fetch(url).then((response) => response.json()
+            //     .then((data) => {
+
+            //         // if (typeof(Storage) !== "undefined") {
+            //         //     // Store
+            //         //     localStorage.setItem("url", url);
+            //         // }
+
+            //         function Redirect() {
+            //             location.assign("..//Card/card.html");
+            //         }
+            //         Redirect();
+
+
+
+            //         // function myfun(i) {
+            //         //     // console.log(data.foods[0].foodNutrients.length);
+            //         //     for (let j = 0; j < data.foods[0].foodNutrients.length; j++) {
+            //         //         // console.log(data.foods[0].foodNutrients[j].nutrientId);
+            //         //         if (data.foods[0].foodNutrients[j].nutrientId === i) {
+
+            //         //             console.log(data.foods[0].foodNutrients[j].nutrientName, " : ", data.foods[0].foodNutrients[j].value);
+            //         //             break;
+            //         //         }
+            //         //     }
+            //         // }
+
+            //         // nutriList.forEach(myfun);
+            //     }));
+        }
+    }
+
+
+
+
+
+
+}
 
